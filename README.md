@@ -3,8 +3,8 @@
 Use it like this:
 
 ```
-$ alias paperspace="docker run --rm azlyth/docker-paperspace"
-$ paperspace --apiKey $PAPERSPACE_API_KEY machines list
+$ alias paperspace="eval 'docker run --rm azlyth/docker-paperspace --apiKey \$PAPERSPACE_API_KEY'"
+$ paperspace machines list
 ```
 
 Build it like this:
